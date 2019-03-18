@@ -1,0 +1,57 @@
+body.login {
+  /*background-image: url('bg.png');*/
+  background-size: cover;
+  background-color: #FFCE00;
+}
+
+.login h1 a {
+  background-image: url('../../../uploads/2019/01/LOGO-768x785.png');
+}
+
+.login form {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.login label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.login input[type="text"] {
+  background-color: rgb(182, 145, 0);
+  border-color:rgb(182, 145, 0);
+  border-radius: 4px;
+}
+
+.login input[type="password"] {
+  background-color: rgb(182, 145, 0);
+  border-color:rgb(182, 145, 0);
+  border-radius: 4px;
+}
+
+.login input[type="checkbox"] {
+  background-color: rgb(182, 145, 0) !important;
+  border-color:rgb(114, 105, 69) !important;
+}
+
+.login input[type="checkbox"]:checked:before {
+  color: #1a1a1a;
+}
+
+.login .button-primary {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.login .button-primary:hover {
+  background-color: #3d3d3d;
+  border-color: #1a1a1a;
+}
+
+p#backtoblog, p#nav {
+  display: none;
+}

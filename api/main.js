@@ -22,6 +22,10 @@ async function fetchPositions() {
 }
 fetchPositions();
 
+//Fix CSS Bug
+const variationEl = document.querySelector('.single-product.woocommerce div.product form.cart.variations_form');
+console.log(variationEl);
+
 //Premier Division - 0
 //Challenger Division - 1
 //Intermediate Division - 2

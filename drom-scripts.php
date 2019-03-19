@@ -21,7 +21,7 @@ function render_plugin_page() {
 }
 */
 function importJavaScript() {
-  wp_enqueue_script('main', plugins_url('/api/main.js',__FILE__));
+  wp_enqueue_script('main', plugins_url('/api/callJs.js',__FILE__));
   wp_localize_script('main', 'magicalData', array(
 		'nonce' => wp_create_nonce('wp_rest'),
 		'siteURL' => get_site_url()

@@ -24,9 +24,7 @@ fetchPositions();
 
 //Fix CSS Bug
 const variationEl = document.querySelector('.single-product.woocommerce div.product form.cart.variations_form');
-console.log(variationEl);
-
-console.log("teste");
+variationEl.style.width = "320px";
 
 //Premier Division - 0
 //Challenger Division - 1
